@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <h1>Events</h1>
+    <button onclick ="alert('You clicked me') ; alert('You clicked me again')">click me!!</button>
+    
+    <button id="v2">click here too</button>     <!--dont work for this as above -->
+    
+    <button ondblclick ="alert('You clicked me') ; alert('You clicked me again')" >click me!!</button>
+    
+    <button id="v3">click here too</button>
+    <button id="v3">click here too</button>
+    
+    <button id="tas">twist and shout</button>
+
+    <br><br><br>
+    
+    <button id="button">Change Color</button>
+    <br><br><br>
+    <input type="text" >
+    <br><br><br>
+
+    <button id="btn">click me</button>
+    <button id="btn">click me</button>
+    <button id="btn">click me</button>
+
+    <h1 id="head">Click here</h1>
+    <h1 id="head">Click here</h1>
+    <h1 id="head">Click here</h1>
+    
+    <form action="/dogs" id="tweet">
+        <input type="text" name="username" >
+        <input type="password" name="password">
+        <button>Register</button>
+    </form>
+
+    <div class="navit_div">
+        <nav class="navigate">
+            <div class="nav_div">
+             <a href="#" class="link hide">home</a>
+             <a href="#" class="link hide">nav</a>
+             <a href="#" class="link hide">class</a>
+             <a href="#" class="link hide">id</a>
+             <a href="#" class="link hide">content</a>
+             <a href="#" class="link">Navigation</a>
+
+            </div>
+             <button class="nav_btn">^</button>
+             <button class="nav_btn hide">v</button>
+         </nav>
+         <section class="next">
+             <h3>Hello and Welcome To Nav Button</h3>
+             <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde deserunt a nobis quod quidem illo at quam qui ullam aliquam quo atque rerum maxime minima, explicabo ipsum dignissimos pariatur vel!
+             </p>
+             <a href="www.link.com">Click Here For The Link</a>
+         </section>
+    </div>
+
+    <input type="text" name="input" class="input">
+
+    <section onclick="alert('section')" class="container">
+        <p onclick="alert('paragraph')">
+            hello
+            <button onclick="alert('button')" class="cont_btn">click</button>
+        </p>
+    </section>
+    <!-- here aboove first button>p>section alert work --------------- > bubling -->
+
+    <ul class="tweetCont">
+        <li>adsf</li>
+        <li>asd</li>    
+    </ul>
+    
+    <script src="event.js"></script>        <!--do not work in this-->
+</body>
+</html>

@@ -1,0 +1,38 @@
+#btn{
+    padding: 2em;
+}
+nav {
+    padding: 1em;
+    margin-top: 1em;
+    background-color: orchid;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: rgb(53, 75, 53);
+    font-size: 1.2em;
+    margin-right: 1em ;
+}
+.nav_btn {
+    background-color: orchid;
+    color: palegreen;
+    border: 0px ;
+    font-size: 22px;
+}
+.hide {
+    display: none;
+}
+.navit_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.next {
+    margin-bottom: 2em;
+    width: 27em;
+    border: 2px solid rgb(207, 200, 200);
+    transition: 2s;
+}
+.navigate{
+    width: 25.3em;
+}
